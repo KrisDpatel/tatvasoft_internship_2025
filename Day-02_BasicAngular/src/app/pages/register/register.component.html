@@ -1,0 +1,62 @@
+<div>
+  <div class="container d-flex justify-content-center">
+    <div class="card shadow-lg p-4 " style="width: 100%; max-width: 500px; border: 5px rgba(227, 225, 225, 0.925) solid; border-radius: 5%;">
+      <h3 class="text-center mb-4">Register</h3>
+      <hr>
+      <form (ngSubmit)="handleSubmit()">
+        <div class="mb-3">
+          <label for="username" class="form-label">Full Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="username"
+            name="username"
+            [(ngModel)]="username"
+            placeholder="Enter Your Name"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="regEmail" class="form-label">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="regEmail"
+            name="email"
+            [(ngModel)]="email"
+            placeholder="name@example.com"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="regPassword" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="regPassword"
+            name="password"
+            [(ngModel)]="password"
+            placeholder="********"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="confirmPassword" class="form-label">Confirm Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="confirmPassword"
+            name="confirmPassword"
+            placeholder="********"
+            required
+          />
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Register</button>
+      </form>
+    </div>
+  </div>
+</div>

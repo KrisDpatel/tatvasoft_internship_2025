@@ -1,0 +1,10 @@
+.angular-logo {
+    margin-left: 20%;
+    max-width: 8rem;
+  }
+
+  .buttons-end {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px; /* spacing between buttons */
+  }

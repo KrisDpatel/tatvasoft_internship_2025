@@ -1,0 +1,132 @@
+<div class="container py-5">
+  <h1 class="text-center text-primary mb-5 display-5 fw-bold">🔰 Learn Angular Basics — Theory</h1>
+
+  <div class="row g-4">
+    <div class="col-12">
+      <div class="card shadow-lg p-4 border-0">
+        <h4 class="card-title">1. What is Angular?</h4>
+        <p class="card-text">
+          Angular is a <strong>platform and framework</strong> for building single-page client applications using HTML, CSS, and TypeScript.
+          Maintained by Google, it enables developers to create dynamic, scalable, and modular applications.
+        </p>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <div class="card shadow-lg p-4 border-0">
+        <h4 class="card-title">2. Components</h4>
+        <ul class="card-text">
+          <li>Fundamental building blocks of Angular apps.</li>
+          <li>Each component manages a part of the UI (view).</li>
+          <li>Includes:
+            <ul>
+              <li><strong>TypeScript class</strong> – Logic</li>
+              <li><strong>HTML template</strong> – Layout</li>
+              <li><strong>CSS</strong> – Styling</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <div class="card shadow-lg p-4 border-0">
+        <h4 class="card-title">3. Modules</h4>
+        <p class="card-text">
+          Modules organize the application into cohesive blocks of functionality. The root module, usually <code>AppModule</code>, bootstraps the app.
+        </p>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <div class="card shadow-lg p-4 border-0">
+        <h4 class="card-title">4. Templates and Data Binding</h4>
+        <ul class="card-text">
+          <li><strong>Interpolation:</strong> <code>{{ '{{ title }}' }}</code></li>
+          <li><strong>Property Binding:</strong> <code>&lt;img [src]="imageUrl"&gt;</code></li>
+          <li><strong>Event Binding:</strong> <code>&lt;button (click)="handleClick()"&gt;</code></li>
+          <li><strong>Two-way Binding:</strong> <code>&lt;input [(ngModel)]="name"&gt;</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <div class="card shadow-lg p-4 border-0">
+        <h4 class="card-title">5. Directives</h4>
+        <ul class="card-text">
+          <li><strong>Structural:</strong> <code>*ngIf</code>, <code>*ngFor</code> – Add/remove elements</li>
+          <li><strong>Attribute:</strong> <code>[ngClass]</code>, <code>[ngStyle]</code> – Modify appearance</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <div class="card shadow-lg p-4 border-0">
+        <h4 class="card-title">6. Services and Dependency Injection</h4>
+        <p class="card-text">
+          Services are reusable logic providers. Angular’s DI system injects these services where needed, promoting clean architecture.
+        </p>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <div class="card shadow-lg p-4 border-0">
+        <h4 class="card-title">7. Routing</h4>
+        <p class="card-text">
+          Enables navigation across components. Uses <code>routerLink</code> for links and <code>&lt;router-outlet&gt;</code> to display routes.
+        </p>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <div class="card shadow-lg p-4 border-0">
+        <h4 class="card-title">8. Lifecycle Hooks</h4>
+        <ul class="card-text">
+          <li><code>ngOnInit()</code> – On initialization</li>
+          <li><code>ngOnDestroy()</code> – On component destroy</li>
+          <li>Other hooks: <code>ngOnChanges()</code>, <code>ngAfterViewInit()</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <div class="card shadow-lg p-4 border-0">
+        <h4 class="card-title">9. Forms</h4>
+        <ul class="card-text">
+          <li><strong>Template-driven:</strong> Easy, form-based HTML structure</li>
+          <li><strong>Reactive:</strong> More scalable, uses <code>FormGroup</code> and <code>FormControl</code></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <div class="card shadow-lg p-4 border-0">
+        <h4 class="card-title">10. HTTP Client</h4>
+        <p class="card-text">
+          The <code>HttpClient</code> service helps communicate with REST APIs using GET, POST, PUT, DELETE. Uses Observables for async handling.
+        </p>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <div class="card shadow-lg p-4 border-0">
+        <h4 class="card-title">11. Pipes</h4>
+        <ul class="card-text">
+          <li>Transform data in the view: <code>date</code>, <code>currency</code>, <code>uppercase</code>, etc.</li>
+          <li>Create custom pipes for custom formatting.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <div class="card shadow-lg p-4 border-0">
+        <h4 class="card-title">12. Component Communication</h4>
+        <ul class="card-text">
+          <li><code>Input()</code>: Pass data from parent to child</li>
+          <li><code>Output()</code> + <code>EventEmitter</code>: Send events to parent</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
